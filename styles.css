@@ -1,0 +1,82 @@
+/*
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+#hero-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("images/pleven-hero.jpg");
+  background-size: cover;
+}
+
+#title-main {
+  background: #1d3557;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+#subheading-main {
+  background: #457b9d;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+#activity-header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#activities {
+  display: flex;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.activity-descriptions {
+  width: 400px;
+}
+
+#guide {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #daff7d;
+  color: #2b2839;
+  border-bottom: 6px solid #81559b;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.headshot {
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.round {
+  border-radius: 50px;
+}
